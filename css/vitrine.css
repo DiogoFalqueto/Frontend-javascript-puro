@@ -1,0 +1,19 @@
+#vitrine {
+	max-width: 80%;
+	width: auto;
+	margin: 0 auto;
+}
+
+.itens {
+	display: inline-block;
+	width: 100px;
+	margin: 40px;
+	background-color: #fff;
+}
+
+.itens > img {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border: 1px solid black;
+}

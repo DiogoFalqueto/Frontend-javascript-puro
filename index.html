@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Loja</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Diogo Falqueto">
+		<meta name="keywords" content="loja, virtual, teste, frontend">
+		<meta name="description" content="Site para simular uma loja virtual.">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/vitrine.css">
+		<link rel="stylesheet" type="text/css" href="css/carinho.css">
+	</head>
+	<body onload="startLoja()">
+		<header>
+			<h3>Loja Virtual</h3>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#" onclick="mostrarCarinho()">Carinho</a></li>
+			</ul>
+		</header>
+		<div id="vitrine"></div>
+
+		<div id="carinho">
+		<button type="button" onclick="console.log('comprando!')">Comprar</button>
+		<button type="button" onclick="esconderCarinho()">Fechar<button>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>

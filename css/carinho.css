@@ -1,0 +1,31 @@
+#carinho {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	position: absolute;
+	top: 10%;
+	left:10%;
+	display: none;
+	border: 1px solid black;
+	background-color: #fff;
+}
+
+#carinho > table {
+	width: 100%;
+}
+
+#carinho > table > * > tr > * {
+	border: 1px solid black;
+}
+
+#buttonCarinho {
+	display: block;
+	margin: 0 auto;
+	max-width: 300px;
+}
+
+#buttonCarinho > button {
+	max-width: 300px;
+	min-width: 100px;
+
+}
